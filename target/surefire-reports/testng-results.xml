@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-22T10:42:34Z" name="Surefire suite" finished-at="2024-05-22T10:43:45Z" duration-ms="70743">
+    <groups>
+    </groups>
+    <test started-at="2024-05-22T10:42:34Z" name="Surefire test" finished-at="2024-05-22T10:43:45Z" duration-ms="70743">
+      <class name="CMMS.Testcase.TestCase">
+        <test-method is-config="true" signature="servicestart()[pri:0, instance:CMMS.Testcase.TestCase@12028586]" started-at="2024-05-22T10:42:21Z" name="servicestart" finished-at="2024-05-22T10:42:34Z" duration-ms="12948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicestart -->
+        <test-method is-config="true" signature="openCMMS()[pri:0, instance:CMMS.Testcase.TestCase@12028586]" started-at="2024-05-22T10:42:34Z" name="openCMMS" finished-at="2024-05-22T10:42:38Z" duration-ms="4394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCMMS -->
+        <test-method signature="testcmms()[pri:0, instance:CMMS.Testcase.TestCase@12028586]" started-at="2024-05-22T10:42:38Z" name="testcmms" finished-at="2024-05-22T10:43:45Z" duration-ms="66331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcmms -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:CMMS.Testcase.TestCase@12028586]" started-at="2024-05-22T10:43:45Z" name="quit" finished-at="2024-05-22T10:43:46Z" duration-ms="1456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- CMMS.Testcase.TestCase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
