@@ -17,7 +17,7 @@ import FrameWork_PageObject.LoginPage;
 import FrameWrok_EnvSetUp.EnvironmentSetup;
 
 
-public class TestCase extends EnvironmentSetup {
+public class FireFoxTestCase extends EnvironmentSetup {
 // test=> Environmental setup=> path utility
 	
 	
@@ -28,7 +28,7 @@ LoginPage page;
 	public void setup() {
 
 
-		setDriver("chrome", "https://sacmms.ripplesiot.net");
+		setDriver("firefox", "https://sacmms.ripplesiot.net");
 		driver = getDriver();//To get the control of the driver instance in here
 		
 		// classname.methodname()
