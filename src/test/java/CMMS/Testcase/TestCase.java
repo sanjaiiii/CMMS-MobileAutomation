@@ -17,7 +17,7 @@ public class TestCase extends Configuration{
 	@BeforeTest
 	public void openCMMS() {
 		
-		driver.get("https://sacmms.ripplesiot.net");
+		driver.get("#############");
 	}
 	
 	
